@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>CR-7/CR-8 Maps</title>
+  <meta charset="utf-8" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link href="http://netdna.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.css" rel="stylesheet">
+  <link rel="stylesheet" href="dist/leaflet.awesome-markers.css">
+  <link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet-0.6.4/leaflet.css" />
+  <!--[if lte IE 8]>
+      <link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet-0.6.4/leaflet.ie.css" />
+  <![endif]-->
+</head>
+<body>
+  <div id="map" style="width: 100%; height: 100%"></div>
+
+  <script src="http://cdn.leafletjs.com/leaflet-0.6.4/leaflet.js"></script>
+  <script src="dist/leaflet.awesome-markers.js"></script>
+  <script>
+    var map = L.map('map').setView([23.5, 121.01541], 8);
+
+    L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+      attribution: '&copy; OpenStreetMap contributors',
+      maxZoom: 18,
+      minZoom: 1,
+    }).addTo(map);
+
+    L.marker([25.037531,121.5639969], {icon: L.AwesomeMarkers.icon({icon: 'paw', prefix: 'fa', markerColor: 'darkblue'}) }).addTo(map);
+    L.marker([25.041099,121.57234199999994], {icon: L.AwesomeMarkers.icon({icon: 'paw', prefix: 'fa', markerColor: 'darkblue'}) }).addTo(map);
+    L.marker([25.069251,121.66086999999993], {icon: L.AwesomeMarkers.icon({icon: 'paw', prefix: 'fa', markerColor: 'darkblue'}) }).addTo(map);
+    L.marker([24.9826232,121.53529389999994], {icon: L.AwesomeMarkers.icon({icon: 'paw', prefix: 'fa', markerColor: 'darkblue'}) }).addTo(map);
+    L.marker([24.9550939,121.22106299999996], {icon: L.AwesomeMarkers.icon({icon: 'paw', prefix: 'fa', markerColor: 'darkblue'}) }).addTo(map);
+    L.marker([24.110003,120.68849190000003], {icon: L.AwesomeMarkers.icon({icon: 'paw', prefix: 'fa', markerColor: 'darkblue'}) }).addTo(map);
+    L.marker([23.9581913,120.47751629999993], {icon: L.AwesomeMarkers.icon({icon: 'paw', prefix: 'fa', markerColor: 'darkblue'}) }).addTo(map);
+    L.marker([23.183854,120.24738419999994], {icon: L.AwesomeMarkers.icon({icon: 'paw', prefix: 'fa', markerColor: 'darkblue'}) }).addTo(map);
+    L.marker([22.6409904,120.30922290000001], {icon: L.AwesomeMarkers.icon({icon: 'paw', prefix: 'fa', markerColor: 'darkblue'}) }).addTo(map);
+  </script>
+</body>
+</html>
