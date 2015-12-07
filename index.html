@@ -27,15 +27,136 @@
       minZoom: 1,
     }).addTo(map);
 
-    L.marker([25.037531,121.5639969], {icon: L.AwesomeMarkers.icon({icon: 'paw', prefix: 'fa', markerColor: 'darkblue'}) }).addTo(map);
-    L.marker([25.041099,121.57234199999994], {icon: L.AwesomeMarkers.icon({icon: 'paw', prefix: 'fa', markerColor: 'darkblue'}) }).addTo(map);
-    L.marker([25.069251,121.66086999999993], {icon: L.AwesomeMarkers.icon({icon: 'paw', prefix: 'fa', markerColor: 'darkblue'}) }).addTo(map);
-    L.marker([24.9826232,121.53529389999994], {icon: L.AwesomeMarkers.icon({icon: 'paw', prefix: 'fa', markerColor: 'darkblue'}) }).addTo(map);
-    L.marker([24.9550939,121.22106299999996], {icon: L.AwesomeMarkers.icon({icon: 'paw', prefix: 'fa', markerColor: 'darkblue'}) }).addTo(map);
-    L.marker([24.110003,120.68849190000003], {icon: L.AwesomeMarkers.icon({icon: 'paw', prefix: 'fa', markerColor: 'darkblue'}) }).addTo(map);
-    L.marker([23.9581913,120.47751629999993], {icon: L.AwesomeMarkers.icon({icon: 'paw', prefix: 'fa', markerColor: 'darkblue'}) }).addTo(map);
-    L.marker([23.183854,120.24738419999994], {icon: L.AwesomeMarkers.icon({icon: 'paw', prefix: 'fa', markerColor: 'darkblue'}) }).addTo(map);
-    L.marker([22.6409904,120.30922290000001], {icon: L.AwesomeMarkers.icon({icon: 'paw', prefix: 'fa', markerColor: 'darkblue'}) }).addTo(map);
+<!DOCTYPE html>
+<html>
+<head>
+  <title>CR-7/CR-8 Maps</title>
+  <meta charset="utf-8" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link href="http://netdna.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.css" rel="stylesheet">
+  <link rel="stylesheet" href="dist/leaflet.awesome-markers.css">
+  <link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet-0.6.4/leaflet.css" />
+  <!--[if lte IE 8]>
+      <link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet-0.6.4/leaflet.ie.css" />
+  <![endif]-->
+</head>
+<body>
+  <div id="map" style="width: 100%; height: 100%"></div>
+
+  <script src="http://cdn.leafletjs.com/leaflet-0.6.4/leaflet.js"></script>
+  <script src="dist/leaflet.awesome-markers.js"></script>
+  <script>
+    var map = L.map('map').setView([23.5, 121.01541], 8);
+
+    L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+      attribution: '&copy; OpenStreetMap contributors',
+      maxZoom: 18,
+      minZoom: 1,
+    }).addTo(map);
+
+L.marker([25.0359207,121.56345290000002   ], {icon: L.AwesomeMarkers.icon({icon: 'github-alt ', prefix: 'fa', markerColor: 'darkblue'}) }).addTo(map);
+L.marker([25.0599803,121.54907639999999   ], {icon: L.AwesomeMarkers.icon({icon: 'github-alt ', prefix: 'fa', markerColor: 'darkblue'}) }).addTo(map);
+L.marker([25.0416425,121.5646256          ], {icon: L.AwesomeMarkers.icon({icon: 'github-alt ', prefix: 'fa', markerColor: 'darkblue'}) }).addTo(map);
+L.marker([24.9985366,121.5532766          ], {icon: L.AwesomeMarkers.icon({icon: 'github-alt ', prefix: 'fa', markerColor: 'darkblue'}) }).addTo(map);
+L.marker([24.9985266,121.45269009999993   ], {icon: L.AwesomeMarkers.icon({icon: 'github-alt ', prefix: 'fa', markerColor: 'darkblue'}) }).addTo(map);
+L.marker([24.9947987,121.45247259999996   ], {icon: L.AwesomeMarkers.icon({icon: 'github-alt ', prefix: 'fa', markerColor: 'darkblue'}) }).addTo(map);
+L.marker([24.959461,121.51216529999999    ], {icon: L.AwesomeMarkers.icon({icon: 'github-alt ', prefix: 'fa', markerColor: 'darkblue'}) }).addTo(map);
+L.marker([25.0021696,121.4880561          ], {icon: L.AwesomeMarkers.icon({icon: 'github-alt ', prefix: 'fa', markerColor: 'darkblue'}) }).addTo(map);
+L.marker([24.9855201,121.4433924          ], {icon: L.AwesomeMarkers.icon({icon: 'github-alt ', prefix: 'fa', markerColor: 'darkblue'}) }).addTo(map);
+L.marker([24.990961,121.4257801           ], {icon: L.AwesomeMarkers.icon({icon: 'github-alt ', prefix: 'fa', markerColor: 'darkblue'}) }).addTo(map);
+L.marker([25.0900895,121.42962420000003   ], {icon: L.AwesomeMarkers.icon({icon: 'github-alt ', prefix: 'fa', markerColor: 'darkblue'}) }).addTo(map);
+L.marker([24.7890674,120.99926340000002   ], {icon: L.AwesomeMarkers.icon({icon: 'github-alt ', prefix: 'fa', markerColor: 'darkblue'}) }).addTo(map);
+L.marker([24.7788854,120.98927730000003   ], {icon: L.AwesomeMarkers.icon({icon: 'github-alt ', prefix: 'fa', markerColor: 'darkblue'}) }).addTo(map);
+L.marker([24.8370505,121.01666390000003   ], {icon: L.AwesomeMarkers.icon({icon: 'github-alt ', prefix: 'fa', markerColor: 'darkblue'}) }).addTo(map);
+L.marker([24.8638512,120.9912167          ], {icon: L.AwesomeMarkers.icon({icon: 'github-alt ', prefix: 'fa', markerColor: 'darkblue'}) }).addTo(map);
+L.marker([24.9771074,121.25021449999997   ], {icon: L.AwesomeMarkers.icon({icon: 'github-alt ', prefix: 'fa', markerColor: 'darkblue'}) }).addTo(map);
+L.marker([24.6486336,120.84316450000006   ], {icon: L.AwesomeMarkers.icon({icon: 'github-alt ', prefix: 'fa', markerColor: 'darkblue'}) }).addTo(map);
+L.marker([23.9456914,120.66307549999999   ], {icon: L.AwesomeMarkers.icon({icon: 'github-alt ', prefix: 'fa', markerColor: 'darkblue'}) }).addTo(map);
+L.marker([23.0453278,120.24365260000002   ], {icon: L.AwesomeMarkers.icon({icon: 'github-alt ', prefix: 'fa', markerColor: 'darkblue'}) }).addTo(map);
+L.marker([22.6385672,120.28820670000005   ], {icon: L.AwesomeMarkers.icon({icon: 'github-alt ', prefix: 'fa', markerColor: 'darkblue'}) }).addTo(map);
+L.marker([22.6381852,120.30877199999998   ], {icon: L.AwesomeMarkers.icon({icon: 'github-alt ', prefix: 'fa', markerColor: 'darkblue'}) }).addTo(map);
+L.marker([24.4169981,118.32766900000001   ], {icon: L.AwesomeMarkers.icon({icon: 'github-alt ', prefix: 'fa', markerColor: 'darkblue'}) }).addTo(map);
+L.marker([25.0135621,121.53981939999994   ], {icon: L.AwesomeMarkers.icon({icon: 'github-alt ', prefix: 'fa', markerColor: 'darkblue'}) }).addTo(map);
+L.marker([24.3463548,120.62171169999999   ], {icon: L.AwesomeMarkers.icon({icon: 'github-alt ', prefix: 'fa', markerColor: 'darkblue'}) }).addTo(map);
+L.marker([24.1150515,120.68028140000001   ], {icon: L.AwesomeMarkers.icon({icon: 'github-alt ', prefix: 'fa', markerColor: 'darkblue'}) }).addTo(map);
+L.marker([24.1094779,120.68697650000001   ], {icon: L.AwesomeMarkers.icon({icon: 'github-alt ', prefix: 'fa', markerColor: 'darkblue'}) }).addTo(map);
+L.marker([24.2227987,120.64977569999996   ], {icon: L.AwesomeMarkers.icon({icon: 'github-alt ', prefix: 'fa', markerColor: 'darkblue'}) }).addTo(map);
+L.marker([24.113756,120.73195570000007    ], {icon: L.AwesomeMarkers.icon({icon: 'github-alt ', prefix: 'fa', markerColor: 'darkblue'}) }).addTo(map);
+L.marker([24.1723037,120.6844873          ], {icon: L.AwesomeMarkers.icon({icon: 'github-alt ', prefix: 'fa', markerColor: 'darkblue'}) }).addTo(map);
+L.marker([24.1959554,120.67897970000001   ], {icon: L.AwesomeMarkers.icon({icon: 'github-alt ', prefix: 'fa', markerColor: 'darkblue'}) }).addTo(map);
+L.marker([24.2727634,120.7914154          ], {icon: L.AwesomeMarkers.icon({icon: 'github-alt ', prefix: 'fa', markerColor: 'darkblue'}) }).addTo(map);
+L.marker([24.1736452,120.65876419999995   ], {icon: L.AwesomeMarkers.icon({icon: 'github-alt ', prefix: 'fa', markerColor: 'darkblue'}) }).addTo(map);
+L.marker([24.2115453,120.57107810000002   ], {icon: L.AwesomeMarkers.icon({icon: 'github-alt ', prefix: 'fa', markerColor: 'darkblue'}) }).addTo(map);
+L.marker([24.1409503,120.64678750000007   ], {icon: L.AwesomeMarkers.icon({icon: 'github-alt ', prefix: 'fa', markerColor: 'darkblue'}) }).addTo(map);
+L.marker([24.1476825,120.63697839999998   ], {icon: L.AwesomeMarkers.icon({icon: 'github-alt ', prefix: 'fa', markerColor: 'darkblue'}) }).addTo(map);
+L.marker([24.1138327,120.66051679999998   ], {icon: L.AwesomeMarkers.icon({icon: 'github-alt ', prefix: 'fa', markerColor: 'darkblue'}) }).addTo(map);
+L.marker([24.2527848,120.67403250000007   ], {icon: L.AwesomeMarkers.icon({icon: 'github-alt ', prefix: 'fa', markerColor: 'darkblue'}) }).addTo(map);
+L.marker([24.2163831,120.79220629999998   ], {icon: L.AwesomeMarkers.icon({icon: 'github-alt ', prefix: 'fa', markerColor: 'darkblue'}) }).addTo(map);
+L.marker([25.1058587,121.52201070000001   ], {icon: L.AwesomeMarkers.icon({icon: 'github-alt ', prefix: 'fa', markerColor: 'darkblue'}) }).addTo(map);
+L.marker([25.0261583,121.54270930000007   ], {icon: L.AwesomeMarkers.icon({icon: 'github-alt ', prefix: 'fa', markerColor: 'darkblue'}) }).addTo(map);
+L.marker([25.0379,121.55044299999997      ], {icon: L.AwesomeMarkers.icon({icon: 'github-alt ', prefix: 'fa', markerColor: 'darkblue'}) }).addTo(map);
+L.marker([25.0253038,121.53975000000003   ], {icon: L.AwesomeMarkers.icon({icon: 'github-alt ', prefix: 'fa', markerColor: 'darkblue'}) }).addTo(map);
+L.marker([25.0699586,121.52342769999996   ], {icon: L.AwesomeMarkers.icon({icon: 'github-alt ', prefix: 'fa', markerColor: 'darkblue'}) }).addTo(map);
+L.marker([25.0632847,121.58238570000003   ], {icon: L.AwesomeMarkers.icon({icon: 'github-alt ', prefix: 'fa', markerColor: 'darkblue'}) }).addTo(map);
+L.marker([25.0642095,121.57264370000007   ], {icon: L.AwesomeMarkers.icon({icon: 'github-alt ', prefix: 'fa', markerColor: 'darkblue'}) }).addTo(map);
+L.marker([25.0712322,121.57640919999994   ], {icon: L.AwesomeMarkers.icon({icon: 'github-alt ', prefix: 'fa', markerColor: 'darkblue'}) }).addTo(map);
+L.marker([25.1306501,121.5011528          ], {icon: L.AwesomeMarkers.icon({icon: 'github-alt ', prefix: 'fa', markerColor: 'darkblue'}) }).addTo(map);
+L.marker([25.119473,121.50707499999999    ], {icon: L.AwesomeMarkers.icon({icon: 'github-alt ', prefix: 'fa', markerColor: 'darkblue'}) }).addTo(map);
+L.marker([25.1408006,121.50495780000006   ], {icon: L.AwesomeMarkers.icon({icon: 'github-alt ', prefix: 'fa', markerColor: 'darkblue'}) }).addTo(map);
+L.marker([25.0466513,121.51595700000007   ], {icon: L.AwesomeMarkers.icon({icon: 'github-alt ', prefix: 'fa', markerColor: 'darkblue'}) }).addTo(map);
+L.marker([25.0621449,121.54756829999997   ], {icon: L.AwesomeMarkers.icon({icon: 'github-alt ', prefix: 'fa', markerColor: 'darkblue'}) }).addTo(map);
+L.marker([25.0514468,121.56538049999995   ], {icon: L.AwesomeMarkers.icon({icon: 'github-alt ', prefix: 'fa', markerColor: 'darkblue'}) }).addTo(map);
+L.marker([23.0076695,120.22083650000002   ], {icon: L.AwesomeMarkers.icon({icon: 'github-alt ', prefix: 'fa', markerColor: 'darkblue'}) }).addTo(map);
+L.marker([23.042146,120.24036000000001    ], {icon: L.AwesomeMarkers.icon({icon: 'github-alt ', prefix: 'fa', markerColor: 'darkblue'}) }).addTo(map);
+L.marker([23.0337658,120.24564299999997   ], {icon: L.AwesomeMarkers.icon({icon: 'github-alt ', prefix: 'fa', markerColor: 'darkblue'}) }).addTo(map);
+L.marker([23.0146459,120.22993380000003   ], {icon: L.AwesomeMarkers.icon({icon: 'github-alt ', prefix: 'fa', markerColor: 'darkblue'}) }).addTo(map);
+L.marker([23.0426804,120.24217190000002   ], {icon: L.AwesomeMarkers.icon({icon: 'github-alt ', prefix: 'fa', markerColor: 'darkblue'}) }).addTo(map);
+L.marker([23.0485925,120.17723610000007   ], {icon: L.AwesomeMarkers.icon({icon: 'github-alt ', prefix: 'fa', markerColor: 'darkblue'}) }).addTo(map);
+L.marker([22.9623249,120.22973890000003   ], {icon: L.AwesomeMarkers.icon({icon: 'github-alt ', prefix: 'fa', markerColor: 'darkblue'}) }).addTo(map);
+L.marker([22.98024,120.22365109999998     ], {icon: L.AwesomeMarkers.icon({icon: 'github-alt ', prefix: 'fa', markerColor: 'darkblue'}) }).addTo(map);
+L.marker([23.1136426,120.30335979999995   ], {icon: L.AwesomeMarkers.icon({icon: 'github-alt ', prefix: 'fa', markerColor: 'darkblue'}) }).addTo(map);
+L.marker([23.0746615,120.29450889999998   ], {icon: L.AwesomeMarkers.icon({icon: 'github-alt ', prefix: 'fa', markerColor: 'darkblue'}) }).addTo(map);
+L.marker([23.3030081,120.27643539999997   ], {icon: L.AwesomeMarkers.icon({icon: 'github-alt ', prefix: 'fa', markerColor: 'darkblue'}) }).addTo(map);
+L.marker([24.1476825,120.63697839999998   ], {icon: L.AwesomeMarkers.icon({icon: 'github-alt ', prefix: 'fa', markerColor: 'darkblue'}) }).addTo(map);
+L.marker([24.113756,120.73195570000007    ], {icon: L.AwesomeMarkers.icon({icon: 'github-alt ', prefix: 'fa', markerColor: 'darkblue'}) }).addTo(map);
+L.marker([24.1426558,120.61372510000001   ], {icon: L.AwesomeMarkers.icon({icon: 'github-alt ', prefix: 'fa', markerColor: 'darkblue'}) }).addTo(map);
+L.marker([24.1488363,120.64874110000005   ], {icon: L.AwesomeMarkers.icon({icon: 'github-alt ', prefix: 'fa', markerColor: 'darkblue'}) }).addTo(map);
+L.marker([24.1476825,120.63697839999998   ], {icon: L.AwesomeMarkers.icon({icon: 'github-alt ', prefix: 'fa', markerColor: 'darkblue'}) }).addTo(map);
+L.marker([25.0853935,121.52324420000002   ], {icon: L.AwesomeMarkers.icon({icon: 'github-alt ', prefix: 'fa', markerColor: 'darkblue'}) }).addTo(map);
+L.marker([25.0336533,121.55240700000002   ], {icon: L.AwesomeMarkers.icon({icon: 'github-alt ', prefix: 'fa', markerColor: 'darkblue'}) }).addTo(map);
+L.marker([25.0266325,121.52863760000002   ], {icon: L.AwesomeMarkers.icon({icon: 'github-alt ', prefix: 'fa', markerColor: 'darkblue'}) }).addTo(map);
+L.marker([25.0760762,121.5754389          ], {icon: L.AwesomeMarkers.icon({icon: 'github-alt ', prefix: 'fa', markerColor: 'darkblue'}) }).addTo(map);
+L.marker([25.1386535,121.49799789999997   ], {icon: L.AwesomeMarkers.icon({icon: 'github-alt ', prefix: 'fa', markerColor: 'darkblue'}) }).addTo(map);
+L.marker([25.0375245,121.55762500000003   ], {icon: L.AwesomeMarkers.icon({icon: 'github-alt ', prefix: 'fa', markerColor: 'darkblue'}) }).addTo(map);
+L.marker([25.0375245,121.55762500000003   ], {icon: L.AwesomeMarkers.icon({icon: 'github-alt ', prefix: 'fa', markerColor: 'darkblue'}) }).addTo(map);
+L.marker([25.0519247,121.60555909999994   ], {icon: L.AwesomeMarkers.icon({icon: 'github-alt ', prefix: 'fa', markerColor: 'darkblue'}) }).addTo(map);
+L.marker([25.022151,121.49734149999995    ], {icon: L.AwesomeMarkers.icon({icon: 'github-alt ', prefix: 'fa', markerColor: 'darkblue'}) }).addTo(map);
+L.marker([23.0095248,120.24159970000005   ], {icon: L.AwesomeMarkers.icon({icon: 'github-alt ', prefix: 'fa', markerColor: 'darkblue'}) }).addTo(map);
+L.marker([23.0128541,120.21660099999997   ], {icon: L.AwesomeMarkers.icon({icon: 'github-alt ', prefix: 'fa', markerColor: 'darkblue'}) }).addTo(map);
+L.marker([23.0191223,120.24139620000005   ], {icon: L.AwesomeMarkers.icon({icon: 'github-alt ', prefix: 'fa', markerColor: 'darkblue'}) }).addTo(map);
+L.marker([23.0323197,120.25553450000007   ], {icon: L.AwesomeMarkers.icon({icon: 'github-alt ', prefix: 'fa', markerColor: 'darkblue'}) }).addTo(map);
+L.marker([22.9962356,120.14972290000003   ], {icon: L.AwesomeMarkers.icon({icon: 'github-alt ', prefix: 'fa', markerColor: 'darkblue'}) }).addTo(map);
+L.marker([22.9962356,120.14972290000003   ], {icon: L.AwesomeMarkers.icon({icon: 'github-alt ', prefix: 'fa', markerColor: 'darkblue'}) }).addTo(map);
+L.marker([23.1297863,120.29689910000002   ], {icon: L.AwesomeMarkers.icon({icon: 'github-alt ', prefix: 'fa', markerColor: 'darkblue'}) }).addTo(map);
+L.marker([24.7614132,121.79342629999996   ], {icon: L.AwesomeMarkers.icon({icon: 'github-alt ', prefix: 'fa', markerColor: 'darkblue'}) }).addTo(map);
+L.marker([24.3303254,121.76618370000006   ], {icon: L.AwesomeMarkers.icon({icon: 'github-alt ', prefix: 'fa', markerColor: 'darkblue'}) }).addTo(map);
+L.marker([24.6765027,121.76079019999997   ], {icon: L.AwesomeMarkers.icon({icon: 'github-alt ', prefix: 'fa', markerColor: 'darkblue'}) }).addTo(map);
+L.marker([22.6161367,120.57192710000004   ], {icon: L.AwesomeMarkers.icon({icon: 'github-alt ', prefix: 'fa', markerColor: 'darkblue'}) }).addTo(map);
+L.marker([24.5743065,120.83231239999998   ], {icon: L.AwesomeMarkers.icon({icon: 'github-alt ', prefix: 'fa', markerColor: 'darkblue'}) }).addTo(map);
+L.marker([24.7009219,120.87860260000002   ], {icon: L.AwesomeMarkers.icon({icon: 'github-alt ', prefix: 'fa', markerColor: 'darkblue'}) }).addTo(map);
+L.marker([24.9702307,121.26319149999995   ], {icon: L.AwesomeMarkers.icon({icon: 'github-alt ', prefix: 'fa', markerColor: 'darkblue'}) }).addTo(map);
+L.marker([24.9498835,121.20903069999997   ], {icon: L.AwesomeMarkers.icon({icon: 'github-alt ', prefix: 'fa', markerColor: 'darkblue'}) }).addTo(map);
+L.marker([24.9836498,121.3151997          ], {icon: L.AwesomeMarkers.icon({icon: 'github-alt ', prefix: 'fa', markerColor: 'darkblue'}) }).addTo(map);
+L.marker([24.9655005,121.29452379999998   ], {icon: L.AwesomeMarkers.icon({icon: 'github-alt ', prefix: 'fa', markerColor: 'darkblue'}) }).addTo(map);
+L.marker([22.6537966,120.32415760000004   ], {icon: L.AwesomeMarkers.icon({icon: 'github-alt ', prefix: 'fa', markerColor: 'darkblue'}) }).addTo(map);
+L.marker([22.6628537,120.30843019999998   ], {icon: L.AwesomeMarkers.icon({icon: 'github-alt ', prefix: 'fa', markerColor: 'darkblue'}) }).addTo(map);
+
+  </script>
+</body>
+</html>
+
   </script>
 </body>
 </html>
